@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Navbar from "./components/navbar"; 
+import Ikkinchi from "./ikkinchi qism/ikkinchi"; 
+import UchinchiQism from "./Uchinchiqisim/onas";
+import Turtinchiqisim from "./Turtinchiqisim/Turtinchiqisim";
+import Beshinchiqisim from "./Beshinchiqisim/Beshinchiqisim";
+import Oltinchiqisim from "./Oltinchiqisim/Oltinchiqisim";
+import Footer from "./Footer/Footer";
 
-function App() {
+export function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {<Navbar/>}
+      {<Ikkinchi />}
+      {<UchinchiQism/>}
+      {<Turtinchiqisim/>}
+      {<Beshinchiqisim/>}
+      {<Oltinchiqisim/>}
+      {<Footer/>}
     </div>
   );
 }
-
-export default App;

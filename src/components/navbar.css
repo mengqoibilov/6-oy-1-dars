@@ -1,0 +1,40 @@
+   .navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #5640e0; 
+  }
+  
+  .logo img {
+    height: 70px;  
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center; 
+    flex-grow: 1;  
+    gap: 40px;  
+   
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .contact-button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .contact-button:hover {
+    background-color: red;
+  }
+  

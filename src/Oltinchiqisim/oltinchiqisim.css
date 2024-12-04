@@ -1,0 +1,75 @@
+ .contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .contact-card {
+    display: flex;
+    width: 70%;
+    background-color: #6850fa;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+  }
+  
+  .contact-left,
+  .contact-right {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .contact-left ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-left li {
+    margin-bottom: 10px;
+  }
+  
+  .school-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .contact-right form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-right input,
+  .contact-right textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  .contact-right textarea {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 96%; 
+    height: 140px; 
+ 
+}
+
+  
+  button {
+    background-color: #000;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #333;
+  }
+  
+

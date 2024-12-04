@@ -1,0 +1,66 @@
+   .classes-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .classes-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px; 
+    justify-items: center;
+  }
+  
+  .class-card {
+    background-color: #4a4eff;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 330px; 
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  }
+  
+  .class-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .class-card h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .class-card p {
+    font-size: 1rem;
+  }
+  
+  .class-card button {
+    background-color: white;
+    color: #4a4eff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+  }
+  
+  .class-card button:hover {
+    background-color: #ff6666; 
+    color: white; 
+  }
+  
+  
+  .class-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
