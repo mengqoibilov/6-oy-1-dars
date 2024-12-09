@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./components/navbar"; 
-import Ikkinchi from "./ikkinchi qism/ikkinchi"; 
+import Ikkinchi from "./two/ikkinchi"; 
 import UchinchiQism from "./Uchinchiqisim/onas";
 import Turtinchiqisim from "./Turtinchiqisim/Turtinchiqisim";
 import Beshinchiqisim from "./Beshinchiqisim/Beshinchiqisim";
